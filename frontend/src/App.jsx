@@ -124,7 +124,6 @@ function App() {
         <textarea
           className="meeting-input"
           rows="12"
-          placeholder="Paste meeting summaries, transcripts, or free-form notes here..."
           value={meetingText}
           onChange={(event) => setMeetingText(event.target.value)}
         />
